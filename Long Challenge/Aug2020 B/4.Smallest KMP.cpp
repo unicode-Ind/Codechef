@@ -1,4 +1,29 @@
-//https://www.codechef.com/AUG20B/problems/SKMP   
+//https://www.codechef.com/AUG20B/problems/SKMP  
+/*
+	some edge cases
+	6
+	zzzety
+	ze
+	acdeedaghfaee
+	eeaghfa
+	qwertyuioppppppoiuyt
+	tyuui
+	zaazyz
+	azy
+	jtewmpzqmscas
+	pqssc
+	zatgggg
+	gt
+
+	OUTPUT :
+
+	tyzezz
+	acddeeaghfaee
+	eiooppppppqrttyuuiwy
+	aazyzz
+	aejmmpqssctwz
+	aggggtz
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
