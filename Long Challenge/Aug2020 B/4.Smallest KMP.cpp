@@ -89,9 +89,7 @@ string solve(){
 		}
 	}
 	
-	if(remaining){
-			ans+=pat;
-	}
+	//if(remaining) ans+=pat;
 	return ans;
 }
 
