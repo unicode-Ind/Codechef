@@ -59,7 +59,7 @@ string solve(){
 		freq[c-'a']--;
 	}
 
-	bool remaining=true;
+	//bool remaining=true;
 	int i;
 	for (i = 0; i < 26 and (i+'a')<pat[0] ; ++i)
 	{
@@ -68,7 +68,7 @@ string solve(){
 		}
 	}
 	
-	if(remaining and i<='z'-'a'){
+	
     	string temp="";
     	while(freq[i]--)
     	    temp+=(i+'a');
@@ -77,10 +77,9 @@ string solve(){
     	    ans+=(temp+pat);
     	else
     	    ans+=(pat+temp);
-    	    
-    	 remaining=false;
+   
     	i++;
-	}
+	
 	
 	for (; i < 26; ++i)
 	{
