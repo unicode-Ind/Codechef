@@ -24,12 +24,18 @@ void solve(){
 	int h,p;
 	cin>>h>>p;
 
+	/*
+	simulate
 	while(h and p){
 		h-=p;
 		p/=2;
 	}
 
 	cout<< (h<=0);
+	*/
+	
+	//or observation
+	cout<< (h<=2*p);
 }
 
 int main(int argc, char const *argv[])
